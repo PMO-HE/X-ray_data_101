@@ -1,11 +1,10 @@
 # developer_instruction
-[TOC]
 
 我们目前借用_github_, 采用这种大家共同开发的方式，使用Markdown语言组织我们的101项目。
 
 ## 有关_github_
 
-网上有诸多_github_的教程（诸如https://blog.csdn.net/qq_31001889/article/details/80316503），大家可以酌情上手（反正闲着也是闲着），借_github_为窗口了解大家/community里面都在干啥，是一个很不错的选择。这里需要隆重推荐下**黄崧的饕餮项目**。
+网上有诸多_github_的教程（诸如https://blog.csdn.net/qq_31001889/article/details/80316503), 大家可以酌情上手（反正闲着也是闲着），借_github_为窗口了解大家/community里面都在干啥，是一个很不错的选择。这里需要隆重推荐下**黄崧的饕餮项目**。
 
 关于我们的_**Xray-data-101**_项目，我比较喜欢如下initial的方式：
 
