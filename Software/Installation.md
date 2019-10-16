@@ -4,7 +4,7 @@ Before you try to setup these softwares of high-energy astrophysics, you should 
 
 1. **HEASoft** 
 
-   [Homepage](https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/). HEASoft is a huge software package, now its source code tarball is over 2.5 GB. It contains over twenty tools which are optional to install. 
+   [Homepage](https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/). HEASoft is a unified release of the FTOOLS and XANADU Software Packages. It's huge and now its source code tarball is over 2.5 GB. It contains over twenty tools which are optional to install. 
 
    Just click the Download button. Source code verison is usually better than the binary version to avoid some problems like library missing. If you are not sure which tools are necessary in your project, select all. If download speed is to slow, this [ftp](https://heasarc.gsfc.nasa.gov/FTP/software/lheasoft/release/) provides the tarball. Decompress the tarball.
 
