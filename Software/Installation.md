@@ -64,7 +64,7 @@ Before you try to set up the software of high-energy astrophysics, you should ma
 
 10. 
 
-## Environment variables setting
+## Environment variables configuration
 
 For bash or zsh, some environment variables in my .bashrc (can be another name, e.g. .bash_profile) like the following, modify them to the correct ones according to your system.
 
