@@ -28,17 +28,17 @@ X射线望远镜通常采用Imaging Spectroscopy的观测方法，通过快速�
 
  部分望远镜在软X射线能段的有效面积的对比如下图
 
-![arf_plot](/Users/sunwei/data/tech/he_group/Xray_data_101/1.Introduction/media/arf_plot.png)
+![arf_plot](media/arf_plot.png)
 
 ### X射线数据的常见结构
 
 令人庆幸的是，几乎所有X射线望远镜（乃至几乎所有高能天体物理设备）得到的数据都以“event list”的形式，组织成了符合FITS格式 (https://fits.gsfc.nasa.gov/fits_home.html) 的二进制表格文件。如下是一个event list的样子（用fv命令打开）：
 
-![fits_table](/Users/sunwei/data/tech/he_group/Xray_data_101/1.Introduction/media/fits_table.png)
+![fits_table](media/fits_table.png)
 
 其中最为关键的“EVENTS”数据层，存储了X射线光子的到达时间、空间位置、能量等信息：
 
-![evt_list](/Users/sunwei/data/tech/he_group/Xray_data_101/1.Introduction/media/evt_list.png)
+![evt_list](media/evt_list.png)
 
 完成basic calibration之后，把event list按照时间做bin，即可得到目标天体的lightcurve；按空间位置做bin，即是图像；按能量取bin，就是能谱：event list丰富的信息极大地方便了后续数据分析：
 
@@ -56,9 +56,9 @@ ARF (Auxiliary Response File) 和RMF (Redistribution Matrix File) 是描述X射�
 
 因而ARF可以用于描述望远镜的观测能力。此前[望远镜介绍](#telescopes)章节中的性能比较即是拿各个望远镜的ARF文件做出来的；而RMF文件可以表征望远镜能量分辨率。下图比较了若干望远镜认证1 keV光子的概率分布函数，可以看出来当前的X射线望远镜在Imaging Spectroscopy下只有$R\sim{}20$的分辨本领，未来应用TES技术的望远镜可以达到分光观测的光谱分辨能力。
 
-![rmf_plot_low_1.0keV](/Users/sunwei/data/tech/he_group/Xray_data_101/1.Introduction/media/rmf_plot_low_1.0keV.png)
+![rmf_plot_low_1.0keV](media/rmf_plot_low_1.0keV.png)
 
-![rmf_plot_high_1.0keV](/Users/sunwei/data/tech/he_group/Xray_data_101/1.Introduction/media/rmf_plot_high_1.0keV.png)
+![rmf_plot_high_1.0keV](media/rmf_plot_high_1.0keV.png)
 
 
 
