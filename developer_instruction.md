@@ -1,6 +1,6 @@
 # developer_instruction
 
-我们目前借用github, 采用这种大家共同开发的方式，使用Markdown语言组织我们的101项目。
+我们目前借用github, 采用这种大家共同开发的方式，使用Markdown语言组织我们的101项目。我们需要更多的输入！
 
 ## 有关github
 
