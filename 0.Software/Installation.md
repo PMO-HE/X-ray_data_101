@@ -19,6 +19,8 @@ Before you try to set up the software of high-energy astrophysics, you should ma
    X11 version and Linux: decompress the tarball and move them to the directory which is defined in your $PATH environment variable.
 
    Mac OS dmg and Windows exe: just double-click it to install.
+   
+   DS9 is also provided by most software repository, e.g. apt and homebrew.
 
 3. **CIAO** (**Chandra Interactive Analysis of Observations**)
 
@@ -46,7 +48,7 @@ Before you try to set up the software of high-energy astrophysics, you should ma
 
 7. **ISIS** (**Interactive Spectral Interpretation System**)
 
-   [Homepage](https://space.mit.edu/cxc/isis/). ISIS is designed to facilitate the interpretation and analysis of high-resolution X-ray spectra. It needs [S-Lang](http://www.jedsoft.org/slang/) library and HEASoft. S-Lang and ISIS can be compiled in standard compilation steps. If you not familiar with manual installation, this [page](https://space.mit.edu/cxc/isis/install.html) could help you.
+   [Homepage](https://space.mit.edu/cxc/isis/). ISIS is designed to facilitate the interpretation and analysis of high-resolution X-ray spectra. It needs [S-Lang](http://www.jedsoft.org/slang/) library and HEASoft. S-Lang and ISIS can be compiled in standard compilation steps, meanwhile S-Lang is also provided by most software repository, e.g. apt and homebrew. If you not familiar with manual installation, this [page](https://space.mit.edu/cxc/isis/install.html) could help you.
 
    Because S-Lang gives ISIS the power to run scripts, there are many useful scripts in data analysis.
 
