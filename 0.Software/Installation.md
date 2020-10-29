@@ -21,6 +21,8 @@ Before you try to set up the software of high-energy astrophysics, you should ma
    Mac OS dmg and Windows exe: just double-click it to install.
    
    DS9 is also provided by most software repository, e.g. apt and homebrew.
+   
+   Note that CIAO also provide ds9 which contains some integrated chandra scripts, you might not need standalone ds9 if you have CIAO installed.
 
 3. **CIAO** (**Chandra Interactive Analysis of Observations**)
 
