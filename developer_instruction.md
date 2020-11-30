@@ -8,7 +8,15 @@
 
 关于我们的Xray-data-101项目，我比较喜欢如下initial的方式：
 
+```bash
 git clone https://github.com/PMO-HE/Xray_data_101.git
+```
+
+  如果你已经做过initialization，再次更改最好先同步一下，
+
+```bash
+git pull
+```
 
 然后在你完成编辑后，使用
 

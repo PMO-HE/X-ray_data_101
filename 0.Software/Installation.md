@@ -109,6 +109,6 @@ There is a map can tell you their relationships, (credit: Mike Nowak 2016)
 
 ![Madrid_HiRes_2016_Intro_to_ISIS](media/Madrid_HiRes_2016_Intro_to_ISIS.jpg)
 
-Important!
+**Important!**
 
 Before you begin to run any software for data reductions, please read carefully the manuals, cookbooks or guides of these software from their websites to make sure that nothing necessary is missing in your system.
