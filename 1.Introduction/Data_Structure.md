@@ -4,7 +4,7 @@
 
 在开始处理数据之前，我们需要对可获取的X射线数据，以及数据的结构有简要的了解。这里不再对X射线能段的重要性赘述：首先重要性是一个见仁见智的主管考量，其次想必大家阅读101的目标不是领会这些内容的。
 
-##常用的X射线望远镜{#telescopes}
+## 常用的X射线望远镜{#telescopes}
 
 X射线望远镜通常采用Imaging Spectroscopy的观测方法，通过快速地曝光和读取数据, 并且**纪录每一个光子的能量、位置、到达时间**的办法，达到同时获取X射线辐射的图像和能谱。这一方法的缺点是潜在的pile-up效应（一次曝光和读出过程中，某个pixel上收到了两个光子），并且只能得到中低分辨率的光谱。前者一般通过缩短曝光和读出时间 (短至数毫秒) 或者加滤片 (XMM-Newton) 解决；而提高光谱分辨率的努力包括添加光谱仪 (Chandra和XMM-Newton)，获取天体X射线辐射的分光光谱，以及提高探测器的能量分辨能力：未来的X射线望远镜 (XRISM, HUBS, Athena) 将配备采用了Transition Edge Sensor (TES) 技术的微量温仪  (micro-calorimeter)，可以获取具有[光谱仪分辨率](#rmf_file)的Imaging Spectroscopy观测结果。micro-calorimeter一般尺寸较大，高分辨率光谱牺牲了空间分辨能力。
 
@@ -36,7 +36,7 @@ X射线望远镜通常采用Imaging Spectroscopy的观测方法，通过快速�
  [链接1](https://space.mit.edu/~jonathan/xray_detect.html)
  [链接2](https://heasarc.gsfc.nasa.gov/docs/xmm/about_why.html)
 
-##X射线数据的常见结构
+## X射线数据的常见结构
 
 令人庆幸的是，几乎所有X射线望远镜（乃至几乎所有高能天体物理设备）得到的数据都以“event list”的形式，组织成了符合FITS格式 (https://fits.gsfc.nasa.gov/fits_home.html) 的二进制表格文件。如下是一个event list的样子（用fv命令打开）：
 
@@ -54,9 +54,9 @@ X射线望远镜通常采用Imaging Spectroscopy的观测方法，通过快速�
 | 空间位置  | 二维图像 | 辐射空间分布 | ds9, ...        |
 | 光子能量  | 能谱     | 辐射能谱特征 | XSPEC, ISIS     |
 
-##重要辅助文件介绍
+## 重要辅助文件介绍
 
-###ARF文件和RMF文件{#rmf_file}
+### ARF文件和RMF文件{#rmf_file}
 
 ARF (Auxiliary Response File) 和RMF (Redistribution Matrix File) 是描述X射线望远镜能量响应的文件，是进行能谱拟合必不可少的两个辅助文件。其中，ARF文件是望远镜有效面积和探测器量子效率的乘积，具有面积的量纲；RMF文件描述不同能量的光子被“认证”能量/“落入”某个通道的概率，它没有量纲。
 
