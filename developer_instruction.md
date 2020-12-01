@@ -32,4 +32,9 @@ https://www.cnblogs.com/tracylxy/p/6433916.html
 
 ## 有关Markdown
 
-Markdown是一种简化的HTML语言，能够让你用简单的格式字符就能完成不错的组织文字的目的（描述肯定有误，请打脸）。我个人依旧在上手，但就目前的尝试来看，Typora是一个我比较喜欢的编辑软件。
+Markdown是一种轻量级标记语言，能够让你用简单的格式字符就能完成不错的组织文字的目的,当然它也支持HTML语法。
+最重要的是它支持LaTex格式的公式。
+[Typora](https://typora.io/)、[Mark Text](https://marktext.app/)是比较推荐的图形化的编辑软件(前者闭源免费，后者开源)。
+
+### Github兼容性
+目前发现Github不支持一些Markdown语法，比如TOC目录，TOC目录可以用[gh-md-toc](https://github.com/ekalinin/github-markdown-toc)这个脚本帮助生成。
