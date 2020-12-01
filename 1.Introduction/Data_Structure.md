@@ -1,5 +1,5 @@
 # X射线数据结构
-Table of Contents
+目录
 =================
 
 * [常用的X射线望远镜](#常用的x射线望远镜telescopes)
