@@ -1,5 +1,11 @@
 Before you try to set up the software of high-energy astrophysics, you should make sure that your computer contains a Unix-like operation system, e.g. Linux (recommend Ubuntu if you are not familiar with them) and Mac OS. Windows 10 contains a feature named "Windows Subsystem for Linux" and might be able to run this software if you make efforts to solve some technical issues.
 
+Table of Contents
+=================
+
+* [Software list](#software-list)
+* [Environment variables configuration](#environment-variables-configuration)
+
 ## Software list
 
 1. **HEASoft**
@@ -19,9 +25,9 @@ Before you try to set up the software of high-energy astrophysics, you should ma
    X11 version and Linux: decompress the tarball and move them to the directory which is defined in your $PATH environment variable.
 
    Mac OS dmg and Windows exe: just double-click it to install.
-   
+
    DS9 is also provided by most software repository, e.g. apt and homebrew.
-   
+
    Note that CIAO also provide ds9 which contains some integrated chandra scripts, you might not need standalone ds9 if you have CIAO installed.
 
 3. **CIAO** (**Chandra Interactive Analysis of Observations**)
@@ -62,7 +68,7 @@ Before you try to set up the software of high-energy astrophysics, you should ma
 
    [Homepage](https://www.sron.nl/astrophysics-spex). SPEX is a software package optimized for the analysis and interpretation of high-resolution cosmic X-ray spectra provided by SRON. This [page](https://www.sron.nl/astrophysics-spex/download/linux-and-mac) tells you how to install and setup SPEX.
 
-9. ***TG*Cat** (**The Chandra Grating-Data Archive and Catalog**) 
+9. ***TG*Cat** (**The Chandra Grating-Data Archive and Catalog**)
 
    [TGCat](http://tgcat.mit.edu/) is an archive of Chandra transmission grating spectra, and a suite of software for processing such data. It's a web-based interface and its back end is based on ISIS [scripts](https://space.mit.edu/cxc/analysis/tgcat/index.html). It makes grating spectra easily viewable and accessible. Use the Query button to find the source you like and have a quick look at the archived observations with the Actions/Plot button. View button will give you more options to know the details.
 
@@ -105,7 +111,7 @@ After the installations,  you can input heainit, ciao, sasinit, ds9, isis, etc. 
 
 
 
-There is a map can tell you their relationships, (credit: Mike Nowak 2016)
+There is a map can tell you their relationships (credit: Mike Nowak 2016).
 
 ![Madrid_HiRes_2016_Intro_to_ISIS](media/Madrid_HiRes_2016_Intro_to_ISIS.jpg)
 
