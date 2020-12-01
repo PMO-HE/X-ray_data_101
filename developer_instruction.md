@@ -1,10 +1,22 @@
-# developer_instruction
+# 用户指南
 
 我们目前借用github, 采用这种大家共同开发的方式，使用Markdown语言组织我们的101项目。我们需要更多的输入！
 
 ## 有关github
+GitHub是通过Git进行版本控制的软件源代码托管服务平台。
 
 网上有诸多github的教程（诸如https://blog.csdn.net/qq_31001889/article/details/80316503), 大家可以酌情上手（反正闲着也是闲着），借github为窗口了解大家/community里面都在干啥，是一个很不错的选择。这里需要隆重推荐下黄崧的饕餮项目。
+
+在使用Github贡献内容之前，推荐你在自己的设备上安装git命令。
+```bash
+sudo apt install git ## Debian, Ubuntu etc.
+
+sudo yum install git ## CentOS， Fedora etc.
+
+brew install git     ## MacOS
+```
+Windows系统可以去git官网下载，或者使用一些包管理器winget, scoop等等来安装（不太熟悉）。
+
 
 关于我们的Xray-data-101项目，我比较喜欢如下initial的方式：
 
@@ -29,6 +41,9 @@ git push
 当然如果能够按照如下网站使用一下分支那就更美好了：
 
 https://www.cnblogs.com/tracylxy/p/6433916.html
+
+
+当然github还提供图形化客户端，而且部分文本编辑工具也提供GitHub集成，都可以帮助你向我们贡献内容。
 
 ## 有关Markdown
 
