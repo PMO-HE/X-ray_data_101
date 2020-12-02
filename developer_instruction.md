@@ -52,4 +52,4 @@ Markdown是一种轻量级标记语言，能够让你用简单的格式字符就
 [Typora](https://typora.io/)、[Mark Text](https://marktext.app/)是比较推荐的图形化的编辑软件(前者闭源免费，后者开源)。
 
 ### Github兼容性
-目前发现Github不支持一些Markdown语法，比如TOC目录，TOC目录可以用[gh-md-toc](https://github.com/ekalinin/github-markdown-toc)这个脚本帮助生成。
+目前发现Github不支持扩展的Markdown语法，比如TOC目录，Latex公式。TOC目录可以用[gh-md-toc](https://github.com/ekalinin/github-markdown-toc)这个脚本帮助生成。公式可以利用一些工具，比如[Mathpix Snip](https://mathpix.com/)生成图片后插入。
